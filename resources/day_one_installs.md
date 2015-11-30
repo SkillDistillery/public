@@ -33,9 +33,27 @@ We are going to have you install some technologies to make your life easier as a
 * Github pages will be a quick way for us to establish a web presence and start blogging.
 * Follow the steps on the link above and use your handy new Github profile to get started.
 * Do you know any HTML? Get some practice by playing around with this page.  
-
+  
 ####Java Path Configuration  
---> ADD THIS  
+* We need to let your local environment know where to find Java so that the Java Virtual Machine (JVM) can know how to load compiled classes. We do this by updating your CLASSPATH.
+* First lets add a JAVA_HOME export to your bash profile.
+    * Open your .bash_profile with your handy new alias:
+    ```bash
+    tw ~/.bash_profile
+    ```
+    * In here on a new line, add:
+    ```bash
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+    ```
+    * Now copy that same line and paste it into terminal and hit return.
+    * Let's check to make sure that Java is now in our PATH:
+    ```bash
+    which java
+    #/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin/java
+    
+    echo $PATH
+    #/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/bin
+    ```  
   
 ####Text Wrangler
 *[https://itunes.apple.com/us/app/textwrangler/id404010395?mt=12][wrangler]*  
