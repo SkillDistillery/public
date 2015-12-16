@@ -7,37 +7,37 @@ Go to your Github profile.
 ###Step 2
 Select the 'Repositories' tab.
   
-![Click Repo][https://github.com/SkillDistillery/public/tree/master/imgs/click_repo.png)]
+![Click Repo][https://github.com/SkillDistillery/public/tree/master/imgs/click_repo.png]
 
 ###Step 3
 Click the 'New' button.
   
-![Click New][https://github.com/SkillDistillery/public/tree/master/imgs/click_new.png)]
+![Click New][https://github.com/SkillDistillery/public/tree/master/imgs/click_new.png]
 
 ###Step 4
 Name your repository 'javaHardWay', click create.
   
-![Name Repo][https://github.com/SkillDistillery/public/tree/master/imgs/name_repo.png)]
+![Name Repo][https://github.com/SkillDistillery/public/tree/master/imgs/name_repo.png]
 
 ###Step 5
 Use the clipboard icon to copy the link to the repository.
   
-![Copy Link][https://github.com/SkillDistillery/public/tree/master/imgs/copy_link.png)]
+![Copy Link][https://github.com/SkillDistillery/public/tree/master/imgs/copy_link.png]
 
 ###Step 6
 Open a Terminal, and navigate to your 'Desktop'.
   
-![cd Desktop][https://github.com/SkillDistillery/public/tree/master/imgs/cd_desktop.png)]
+![cd Desktop][https://github.com/SkillDistillery/public/tree/master/imgs/cd_desktop.png]
 
 ###Step 7
 Use the `git clone https://github.com/...` command to clone a local copy of the repository you just created to your desktop.
   
-![Clone Repo][https://github.com/SkillDistillery/public/tree/master/imgs/clone_repo.png)]
+![Clone Repo][https://github.com/SkillDistillery/public/tree/master/imgs/clone_repo.png]
 
 ###Step 8
 Change directory into your local repository (`cd javaHardWay`)
   
-![cd Java Hard Way][https://github.com/SkillDistillery/public/tree/master/imgs/cd_javaHardWay.png)]
+![cd Java Hard Way][https://github.com/SkillDistillery/public/tree/master/imgs/cd_javaHardWay.png]
 
 ###Step 9
 Write your solutions to the first 'Java the Hard Way' exercise in this repository.
