@@ -35,7 +35,7 @@ Use the `git clone https://github.com/...` command to clone a local copy of the 
 ![Clone Repo](../../../tree/master/imgs/clone_repo.png)  
 
 ###Step 8
-Change directory into your local repository (`cd javaHardWay`).
+Change directory into your local repository (`cd javaHardWay`)
   
 ![cd Java Hard Way](../../../tree/master/imgs/cd_javaHardWay.png)  
 
@@ -65,7 +65,7 @@ Now that your changes are staged you can commit them. Committing changes is a lo
 ###Step 14
 Almost done!  
   
-Now that you've committed your changes locally you can update your remote repository (Github) with your new code. To accomplish this we do what's called a 'push'. In order to push we need to specify the server to push to as well as the branch we wish to push to. For now the server's name is 'origin' and the branch's name is 'master'. The sum of all of these parts is the command `git push origin master`.
+Now that you've committed your changes locally you can update your remote repository (Github) with your new code. To accomplish this we do what's called a 'push'. In order to push we need to specify the server to push to as well as the branch we wish to push to. For now the server's name is 'origin' and the branch's name is 'master'. The sum of all of these parts is the command `git push origin master.
   
 ![git push](../../../tree/master/imgs/git_push.png) 
 
