@@ -552,6 +552,12 @@ Our links look a little bit sad. They are the default size, have underlines...th
 <!-- Surrounding code excluded-->
 
 <style>
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #808080;
+	}
+
 header ul li {
 	display: inline;
 	padding-left: 125px;
