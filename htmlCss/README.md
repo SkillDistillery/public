@@ -320,7 +320,7 @@ The `<img>` element allows us to render image sources into our HTML. The `<img>`
 * Last but not least, the `height` and `width` attributes allow us to define the size in pixels that our image will be on the page.  
   
 ```html
-<image src="html_logo.png" alt="HTML Logo" height="80" width="80">
+<img src="html_logo.png" alt="HTML Logo" height="80" width="80">
 ```  
   
 ![HTML Logo](imgs/htmlImg.png)
