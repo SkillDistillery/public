@@ -1,0 +1,60 @@
+h1 {
+	color: blue;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #808080;
+}
+
+header ul {
+	float:left;
+	padding-top: 20px;
+}
+
+header ul li {
+	display: inline;
+	padding-left: 125px;
+	color: white; /* Make the text white */
+	font-size: 30px; /* Increase font-size */
+	font-family: Arial, Helvetica, sans-serif; /* Change font */
+}
+
+header a {
+	text-decoration:none; /* Remove underlines from links */
+}
+
+header a:visited {
+	color: white; /* Instead of turning purple when clicked, stay white */
+}
+
+header a:hover {
+	color:orange; /* When hovered on, turn orange */
+}
+
+header img {
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.container {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.emphatic {
+	font-style:italic;
+}
+
+.content {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+.col-50 {
+	float:left;
+	width:50%;
+}
