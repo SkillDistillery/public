@@ -681,7 +681,7 @@ With this information you can go and add more content to your pages and practice
   * [HTML & CSS][cahtml]
   * [JavaScript][cajs]
   * [Java][cajava]
-* [GitHub][]
+* [GitHub][gh]
 * [Skill Distillery][sd]
 
 
@@ -694,4 +694,4 @@ With this information you can go and add more content to your pages and practice
 [cajs]:https://www.codecademy.com/learn/javascript
 [cajava]:https://www.codecademy.com/learn/learn-java
 [sd]:http://skilldistillery.com/
-[gh]:
+[gh]:https://github.com/SkillDistillery/public/tree/master/htmlCss
