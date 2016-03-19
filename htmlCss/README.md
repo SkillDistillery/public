@@ -658,17 +658,42 @@ CSS allows us to select elements not only by name, but also by their class attri
   
 As you can see, when combined with class attributes, `<div>`s can be very powerful tools. The 'container' `<div>` gives our content some room from the walls of the browser window, setting the width of the `<div>` to 90% of the window, and then centering `<div>` with the `margin-left:auto; margin-right:auto;` declarations. The second `<div>` is given the `content` and `col-50` class attributes, which center it's content, give it a width of %50 of the container div, and set the font to Geneva. The first `<div>` is identical to the second except for the fact that the `emphatic` class attribute is making the text italicized.  
   
-With this information you can go and add more content to your pages and practice using class attributes and divs to further improve the presentation.
+With this information you can go and add more content to your pages and practice using class attributes and divs to further improve the presentation.  
   
-# 
+## Footer
+Before finishing, let's also include a simple footer for your page(s). Footers can be used to handle navigation, share some contact or location information, or simply declare the copyright for your site. Let's add a footer to `index.html` using the `<footer>` element, we will simply place the year inside as a place holder.  
+  
+```html
+<!-- preceeding code omitted for brevity -->
 
+		<footer>
+			2016
+		</footer>
 
-
-
-
-
-
-
+	</body>
+</html>
+```  
+  
+Much like the `<header>` the `<footer>` won't do much on it's own. We will need to add some CSS to our `style.css` in order to have it appear below our content, and display as a mirror to the `<header>`. Add the following CSS to your `style.css`:  
+  
+```css
+footer {
+	float:right;
+	background-color:#808080;
+	height:50px;
+	width:100%;
+	margin-top:250px;
+	color:white;
+	text-align:center;
+	padding-top:25px;
+}
+```  
+  
+Now you should have a footer on your page that looks something like this:  
+  
+![footer](imgs/footer.png)  
+  
+The key component here was the declaration `float:right;`. Assuming that most of your content is floating to the left, or not floating at all, floating the footer to the right will make it appear last.
 
 
 

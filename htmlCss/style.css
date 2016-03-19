@@ -25,6 +25,10 @@ header a {
 	text-decoration:none; /* Remove underlines from links */
 }
 
+header a:link {
+	color:white;
+}
+
 header a:visited {
 	color: white; /* Instead of turning purple when clicked, stay white */
 }
@@ -57,4 +61,15 @@ header img {
 .col-50 {
 	float:left;
 	width:50%;
+}
+
+footer {
+	float:right;
+	background-color:#808080;
+	height:50px;
+	width:100%;
+	margin-top:250px;
+	color:white;
+	text-align:center;
+	padding-top:25px;
 }
