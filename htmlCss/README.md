@@ -552,7 +552,29 @@ Our links look a little bit sad. They are the default size, have underlines...th
 <!-- Surrounding code excluded-->
 
 <style>
+header ul li {
+	display: inline;
+	padding-left: 125px;
+	color: white; /* Make the text white */
+	font-size: 30px; /* Increase font-size */
+	font-family: Arial, Helvetica, sans-serif; /* Change font */
+}
 
+header a {
+	text-decoration:none; /* Remove underlines from links */
+}
+
+header a:link {
+	color:white;
+}
+
+header a:visited {
+	color: white; /* Instead of turning purple when clicked, stay white */
+}
+
+header a:hover {
+	color:orange; /* When hovered on, turn orange */
+}
 
 </style>
 
